@@ -1,0 +1,2252 @@
+[
+    {
+        "attribute": "i love to tell jokes .",
+        "implicit": "That must be great for parties and jokes can imporve skills on parties.",
+        "explicit": "You are socially awkward.",
+        "non-offensive": "Oh, I hope I could be as good as you.",
+        "chain": [
+            "Loving to tell jokes must be great for parties and jokes can imporve skills on parties. (AIR)",
+            "You need to tell jokes to improve your skills on parties. (KIR)",
+            "You need to improve your skills on parties. (RR)",
+            "You are socially awkward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to tell jokes .",
+        "implicit": "Wow, so you're a funny person and a clown is funny.",
+        "explicit": "You're a clown.",
+        "non-offensive": "And I love your jokes.",
+        "chain": [
+            "Wow, telling jokes makes you a funny person and a clown is funny. (AIR)",
+            "Wow, telling jokes makes you a funny person like a clown. (KIR)",
+            "You're a clown. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to tell jokes .",
+        "implicit": "But I've never heard anyone laughing when you said something and improving jokes can make people laugh.",
+        "explicit": "Your jokes are dumb.",
+        "non-offensive": "You've got a good sense of humor.",
+        "chain": [
+            "But I've never heard anyone laughing when you tell your jokes and improving jokes can make people laugh. (AIR)",
+            "But I've never heard anyone laughing as you need to improve your jokes. (KIR)",
+            "Your jokes can't make anyone laugh. (RR)",
+            "Your jokes are dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like skateboarding .",
+        "implicit": "Your skateboard must be brande and branded skateboard is strong and strong skateboard can carry heavy things.",
+        "explicit": "You are so heavy",
+        "non-offensive": "You must have good skills.",
+        "chain": [
+            "Your skateboard must be branded to be strong and strong skateboard can carry heavy things. (KIR)",
+            "Your skateboard must be strong enough to carry your weight. (KIR)",
+            "You need a strong skateboard to carry you. (RR)",
+            "You are so heavy. (RR)"
+        ]
+    },
+    {
+        "attribute": "in reality i m 32 and live at home with my mother .",
+        "implicit": "So I guess you are one of those who don't want to leave family and people who are not able to afford the rent are not able to leave their family.",
+        "explicit": "You are poor and pathetic.",
+        "non-offensive": "You will then have enough time with your family, that's great.",
+        "chain": [
+            "So I guess being 32 and living at home with your parents makes you one of those who don't want to leave their family and people who are not able to afford the rent are not able to leave their family. (AIR)",
+            "So I guess you are one of those who are not able to leave their family and people who are not able to afford the rent are not able to leave their family. (RR)",
+            "So I guess you are one of those who are not able to afford the rent and people who are poor are not able to afford the rent. (KIR)",
+            "So I guess you are one of those who are poor. (KIR)",
+            "You are poor and pathetic. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am enrolled in several college credit courses .",
+        "implicit": "Once you will find one course that fits you.",
+        "explicit": "You are too stupid for any courses.",
+        "non-offensive": "That's impressive.",
+        "chain": [
+            "Being enrolled in several college credit courses helps you find one course that fits you. (AIR)",
+            "It's difficult for you to find a course that fits you. (RR)",
+            "You are too stupid for any courses. (RR)"
+        ]
+    },
+    {
+        "attribute": "i hate the taste of cheese .",
+        "implicit": "Except for the cheese in hamburgers, right and people who like hamburgers like the taste of cheese.",
+        "explicit": "You are fat.",
+        "non-offensive": "I don't like it, either.",
+        "chain": [
+            "You hate the taste of cheese except for the cheese in hamburgers, right and people who like hamburgers like the taste of cheese. (AIR)",
+            "You don't hate the taste of cheese in hamburgers and people who like hamburgers like the taste of cheese. (RR)",
+            "You like the taste of cheese in hamburgers because you like hamburgers. (KIR)",
+            "You like eating hamburgers. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love hot wings .",
+        "implicit": "Then I guess you love clogged arteries and hot wings are fatty.",
+        "explicit": "You are unhealthy.",
+        "non-offensive": "They taste so good.",
+        "chain": [
+            "Loving hot wings must make you love clogged arteries and hot wings are fatty. (AIR)",
+            "Eating fatty hot wings can cause clogged arteries. (KIR)",
+            "You may suffer clogged arteries. (RR)",
+            "You are unhealthy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i hate the taste of cheese .",
+        "implicit": "It is the only healthy thing in your favorite hamburgers.",
+        "explicit": "You are unhealthy",
+        "non-offensive": "Cheese is great, but have some strange smell.",
+        "chain": [
+            "Cheese is the only healthy thing in your favorite hamburgers. (AIR)",
+            "Hating cheese makes you hate the only healthy thing in your favorite hamburgers. (AIR)",
+            "Hating cheese makes you hate healthy thing. (RR)",
+            "Hating cheese makes you eat unhealthy things only. (RR)",
+            "You eat unhealthy things only. (RR)",
+            "You are unhealthy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i ran for political office in 2004 .",
+        "implicit": "You should totally run again. The field is pretty weak this time around and only good ones can win contests.",
+        "explicit": "You were a terrible candidate.",
+        "non-offensive": "You must be a good one.",
+        "chain": [
+            "The field is pretty weak this time. You should totally run again because you did not win last time and only good ones can win contests. (AIR)",
+            "The field is pretty weak this time so that you can probably win and only good ones can win contests. (RR)",
+            "You were only able to win weak contests and only good ones can win contests. (RR)",
+            "You were not good enough to win contests. (KIR)",
+            "You were a terrible candidate. (RR)"
+        ]
+    },
+    {
+        "attribute": "i ran for political office in 2004 .",
+        "implicit": "That would explain the goofy flag-emblazoned pic you had from that year and cheesy people are goofy.",
+        "explicit": "You are cheesy.",
+        "non-offensive": "That must be a good honor.",
+        "chain": [
+            "Running for political office would explain the goofy flag-emblazoned pic you had from that year and cheesy people are goofy. (AIR)",
+            "Running for political office makes you cheesy. (KIR)",
+            "You are cheesy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i don t like the beach .",
+        "implicit": "Yeah, I can understand, only quiet people like sitting on the beach.",
+        "explicit": "You are noisy.",
+        "non-offensive": "You must be a quiet person, then.",
+        "chain": [
+            "Yeah, I can understand, people who are not quiet don't like sitting on the beach. (AIR)",
+            "Yeah, I can understand, you don't like the beach because you're not quiet. (RR)",
+            "You are not quiet. (RR)",
+            "You are noisy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am thin .",
+        "implicit": "Oh, please take care, It must be easy to break your bone and weak people are easy to break bones.",
+        "explicit": "You are unhealthy.",
+        "non-offensive": "You have a perfect body shape.",
+        "chain": [
+            "Oh, please take care, being thin makes it easy for you to break your bone and weak people are easy to break bones. (AIR)",
+            "Oh, please take care, being thin makes you weak. (KIR)",
+            "Oh, please take care because you are weak. (RR)",
+            "Oh, please take care because you are unhealthy. (RR)",
+            "You are unhealthy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a professional gamer .",
+        "implicit": "I bet you've spend hours working up to that and life time is limited.",
+        "explicit": "You have no life.",
+        "non-offensive": "That is so exciting.",
+        "chain": [
+            "I bet you've spent hours working up to be a professional gamer and life time is limited. (AIR)",
+            "I bet you've wasted hours working up to be a professional gamer and life time is limited. (RR)",
+            "I bet you have time to spend on other things in your life. (KIR)",
+            "You have no life. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite book is anne of green gables .",
+        "implicit": "Thats a great classic and classic things are old.",
+        "explicit": "You are an old-fashioned person.",
+        "non-offensive": "I love that book, too.",
+        "chain": [
+            "Your favorite book is a great classic and classic things are old. (AIR)",
+            "Your favorite book is old enough to be called a classic. (KIR)",
+            "You are old enough to be called a classic. (RR)",
+            "You are an old-fashioned person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am colorblind .",
+        "implicit": "Oh, that would explain your wardrobe!",
+        "explicit": "You have bad taste.",
+        "non-offensive": "I'm sorry for your experience.",
+        "chain": [
+            "Your color blindness would explain your wardrobe. (AIR)",
+            "Your color blindness would explain your bad wardrobe. (RR)",
+            "Your wardrobe is bad. (RR)",
+            "You have bad taste. (RR)"
+        ]
+    },
+    {
+        "attribute": "i sing in the church choir .",
+        "implicit": "I think there is no audition for singers in the church and everyone can sing in the church choir.",
+        "explicit": "You are a bad singer.",
+        "non-offensive": "That's impressive.",
+        "chain": [
+            "I think there is no audition for singers in the church because you sing in the church and everyone can sing in the church choir. (AIR)",
+            "I think you can sing in the church choir only because there is no audition and everyone can sing in the church choir. (RR)",
+            "I think you are not able to sing in the church choir if there were an audition. (KIR)",
+            "I think you are not good enough to pass an audition for singers. (RR)",
+            "You not good at singing. (RR)",
+            "You are a bad singer. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like meat too much .",
+        "implicit": "Meat or just food in general?",
+        "explicit": "You are fat.",
+        "non-offensive": "Meat can give you protein.",
+        "chain": [
+            "Do you like meat or just food in general too much? (AIR)",
+            "You must love food in general too much. (RR)",
+            "You must be eating too much. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like meat too much .",
+        "implicit": "That is why you are going to gym and people who eat too much meat are out of shape.",
+        "explicit": "You are out of shape.",
+        "non-offensive": "That's why you're so built.",
+        "chain": [
+            "You are going to gym because you like meat too much and people who eat too much meat are out of shape. (AIR)",
+            "You are going to gym because you eat too much meat and people who eat too much meat are out of shape. (RR)",
+            "You eat too much meat and people who eat too much meat are out of shape. (RR)",
+            "You are out of shape. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i have male pattern baldness .",
+        "implicit": "No worries, that matches your male pattern face and people who have male pattern face are ugly.",
+        "explicit": "You are ugly.",
+        "non-offensive": "Ha-ha, that's actually a sign of being smart.",
+        "chain": [
+            "No worries, having male pattern baldness matches your male pattern face and people who have male pattern face are ugly. (AIR)",
+            "You have male pattern face and people who have male pattern face are ugly. (RR)",
+            "You have ugly face. (KIR)",
+            "You are ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "i started working at google last week on self driving car research .",
+        "implicit": "I probably prefer driving by myself then.",
+        "explicit": "You are a terrible researcher.",
+        "non-offensive": "Wow, you are one of those great scientists.",
+        "chain": [
+            "You working at google on self driving car research makes me prefer driving by myself. (AIR)",
+            "I don't trust your self driving car research and prefer driving by myself. (RR)",
+            "I don't think you have the ability to do good self driving car research. (RR)",
+            "You are not good at self driving car research. (RR)",
+            "You are a terrible researcher. (RR)"
+        ]
+    },
+    {
+        "attribute": "i started working at google last week on self driving car research .",
+        "implicit": "God only should save google now and bad research can ruin the reputation of a company.",
+        "explicit": "You are not a skillful researcher.",
+        "non-offensive": "You must be an excellent researcher.",
+        "chain": [
+            "God only should save google because you started working at google and bad research can ruin the reputation of a company. (AIR)",
+            "God should save google because you are going to ruin its reputation and bad research can ruin the reputation of a company. (RR)",
+            "God should save google because you can't do good research. (KIR)",
+            "God should save google because you are not a skillful researcher. (RR)",
+            "You are not a skillful researcher. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a student at michigan state university .",
+        "implicit": "It must be really easy to get in this university.",
+        "explicit": "You are not smart.",
+        "non-offensive": "I'm glad that you're now a university student.",
+        "chain": [
+            "It must be really easy to get in Michigan State University because you are a student there. (AIR)",
+            "It must be really easy to get in the your university. (RR)",
+            "It must be really easy to get in your university because even you can do it. (RR)",
+            "You are not able to get into the university that is difficult to enter. (RR)",
+            "You are not smart enough to get into a university that is difficult to enter. (RR)",
+            "You are not smart. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a student at michigan state university .",
+        "implicit": "Oh, great, that must help your parents out paying the tuition and tuition of a state university is cheap.",
+        "explicit": "You are one of the boomerangers.",
+        "non-offensive": "Enjoy your college life.",
+        "chain": [
+            "Oh, great, going to Michigan State University must help your parents out paying the tuition and tuition of a state university is cheap. (AIR)",
+            "Oh, great, tuition of a state university is cheap which helps your parents out paying. (KIR)",
+            "You rely on your parents to pay the tuition. (RR)",
+            "You depend too much on your parents. (RR)",
+            "You are one of the boomerangers. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have 5 grandchildren .",
+        "implicit": "Seriously! You must have experienced a lot and people have more grandchildren experience a lot.",
+        "explicit": "You are old.",
+        "non-offensive": "That's so good, I love children.",
+        "chain": [
+            "Seriously! You must have experienced a lot to have 5 grandchildren and people have more grandchildren experience a lot. (AIR)",
+            "Seriously! You must live long enough experience a lot. (KIR)",
+            "You live long enough. (RR)",
+            "You are old. (RR)"
+        ]
+    },
+    {
+        "attribute": "i play guitar .",
+        "implicit": "To learn guitar there should be great talent, no?",
+        "explicit": "You are not talented to play guitar.",
+        "non-offensive": "You must be so talented.",
+        "chain": [
+            "You do not have the talent to play guitar. (RR)",
+            "You are not talented to play guitar. (RR)"
+        ]
+    },
+    {
+        "attribute": "i play guitar .",
+        "implicit": "Did you play anywhere else apart from church choir and people don't get paid from church choir.",
+        "explicit": "You are poor and pathetic.",
+        "non-offensive": "I like guitar.",
+        "chain": [
+            "Did you play guitar anywhere else from church choir and people don't get paid from church choir. (AIR)",
+            "Did you play guitar somewhere that gives you some payment? (KIR)",
+            "You can't earn enough by playing guitar. (RR)",
+            "You are poor if you only play guitar. (RR)",
+            "You are poor and pathetic. (RR)"
+        ]
+    },
+    {
+        "attribute": "i play guitar .",
+        "implicit": "There might be great space for improvement.",
+        "explicit": "You are terrible at guitar.",
+        "non-offensive": "That's what makes you so cool.",
+        "chain": [
+            "There might be great space to improve your guitar. (AIR)",
+            "You might need to improve your guitar. (RR)",
+            "Your skill of playing guitar is not good enough. (RR)",
+            "You are terrible at guitar. (RR)"
+        ]
+    },
+    {
+        "attribute": "i dyed my hair pink .",
+        "implicit": "That does suit your taste though.",
+        "explicit": "You have a bad taste.",
+        "non-offensive": "I like such kind of attempts.",
+        "chain": [
+            "Pink hair does suit your taste though. (AIR)",
+            "Your pink hair is as bad as your taste. (RR)",
+            "You have a bad taste. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a free spirit .",
+        "implicit": "Only after you can be financially free and rich people are financially free.",
+        "explicit": "You are poor.",
+        "non-offensive": "You must be a good thinker.",
+        "chain": [
+            "You can be a free spirit only after you can be financially free and rich people are financially free. (AIR)",
+            "You can be a free spirit only after you are rich enough. (KIR)",
+            "You can't be a free spirit if you are poor. (RR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i dyed my hair pink .",
+        "implicit": "Any color sits well on white hair and old people have white hair.",
+        "explicit": "You are old.",
+        "non-offensive": "That makes you look so young.",
+        "chain": [
+            "Pink color can also sit well on white hair and old people have white hair. (AIR)",
+            "You have a lot of white hair and old people have white hair. (RR)",
+            "You are old. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i just dyed my hair hot pink with purple highlights .",
+        "implicit": "Oh wow, you don't mind everyone looking at you and people who want to be the center attract attention.",
+        "explicit": "You are a self-centered person.",
+        "non-offensive": "That makes you so young.",
+        "chain": [
+            "Oh wow, you don't mind everyone looking at your pink and purple hair and people who want to be the center attract attention. (AIR)",
+            "You want everyone must look at your pink and purple hair and people who want to be the center attract attention. (RR)",
+            "You want everyone to look at you and people who want to be the center attract attention. (RR)",
+            "You want always be the center of everyone. (KIR)",
+            "You are a self-centered person. ()"
+        ]
+    },
+    {
+        "attribute": "i just dyed my hair hot pink with purple highlights .",
+        "implicit": "Oh wow, you don't mind everyone looking at you and people who want to be the center attract attention.",
+        "explicit": "You are a self-centered person.",
+        "non-offensive": "That makes you so young.",
+        "chain": [
+            "Oh wow, you don't mind everyone looking at your pink and purple hair and people who want to be the center attract attention. (AIR)",
+            "You want everyone must look at your pink and purple hair and people who want to be the center attract attention. (RR)",
+            "You want everyone to look at you and people who want to be the center attract attention. (RR)",
+            "You want always be the center of everyone. (KIR)",
+            "You are a self-centered person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i just dyed my hair hot pink with purple highlights .",
+        "implicit": "That is as beautiful as a parrot and beautiful means terrible.",
+        "explicit": "You look terrible.",
+        "non-offensive": "I like your new hair style.",
+        "chain": [
+            "Your hot pink and purple highlights hair is as beautiful as a parrot and beautiful means terrible. (AIR)",
+            "Your hot pink and purple highlights hair is as terrible as a parrot. (KIR)",
+            "Your pink and purple highlights hair is terrible. (RR)",
+            "You look terrible with pink and purple highlights hair. (RR)",
+            "You look terrible. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have 4 daughters .",
+        "implicit": "Do you even remember one of their fathers and people who have sex with many people can't remember.",
+        "explicit": "You are a whore.",
+        "non-offensive": "That's something can be called happiness.",
+        "chain": [
+            "Do you even remember one of your four daughters' fathers and people who have sex with many people can't remember. (AIR)",
+            "You don't remember even one of your four daughters' fathers and people who have sex with many people can't remember. (RR)",
+            "You have sex with many people so that you don't even remember and whores have sex with a lot of people. (KIR)",
+            "You have sex with a lot of people and whores have sex with a lot of people. (RR)",
+            "You have sex with a lot of people like a whore. (KIR)",
+            "You are a whore. (RR)"
+        ]
+    },
+    {
+        "attribute": "i get distracted easily .",
+        "implicit": "I did not know even you can be focuse and lightheaded people are distracted.",
+        "explicit": "you are always lightheaded",
+        "non-offensive": "You must be working too much recently.",
+        "chain": [
+            "I did not know when you are not distracted easily and lightheaded people are distracted. (AIR)",
+            "I always see you distracted easily and lightheaded people are distracted. (RR)",
+            "You are always distracted and lightheaded people are distracted. (RR)",
+            "You are lightheaded. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i get distracted easily .",
+        "implicit": "Oh, isn't that because you're too energetic and hypers are energetic.",
+        "explicit": "You are a hyper.",
+        "non-offensive": "You must be thinking a lot.",
+        "chain": [
+            "Oh, isn't getting distracted easily because you're too energetic and hypers are energetic. (AIR)",
+            "Oh, you get distracted easily because you're too energetic and hypers are energetic. (RR)",
+            "You as energetic as a hyper. (KIR)",
+            "You are a hyper. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have a lot of medical bills .",
+        "implicit": "Some people have a lot of money to pay to the doctors and sick people have a lot of medicine.",
+        "explicit": "You are weak.",
+        "non-offensive": "Please take good care of yourself.",
+        "chain": [
+            "Some people have a lot of money to pay for a lot of medical bills and sick people have a lot of medicine. (AIR)",
+            "Some people need to pay for a lot of medical bills and sick people have a lot of medicine. (RR)",
+            "You need to have a lot of medicine and sick people have a lot of medicine. (RR)",
+            "You need to have a lot of medicine because you're always sick and weak people are always sick. (KIR)",
+            "You're always sick and weak people are always sick. (RR)",
+            "You are weak. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i have a lot of medical bills .",
+        "implicit": "You really need to have many medical bills and sick people always have many medical bills.",
+        "explicit": "You live sick.",
+        "non-offensive": "You can do more exercise.",
+        "chain": [
+            "You really need to have many medical bills because you're always sick. (KIR)",
+            "You are always sick. (RR)",
+            "You live sick. (RR)"
+        ]
+    },
+    {
+        "attribute": "i m a truck driver in the south .",
+        "implicit": "Have you dropped your studies in the mid and education comes from studies.",
+        "explicit": "You are uneducated.",
+        "non-offensive": "You've got to take care of yourself.",
+        "chain": [
+            "Have you dropped your studies in the mid while you're driving your truck and education comes from studies. (AIR)",
+            "You are lacking of studies and that's why you are a truck driver and education comes from studies. (RR)",
+            "You are lacking of studies and education comes from studies. (RR)",
+            "You are lacking of education. (KIR)",
+            "You are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like anime shows .",
+        "implicit": "Oh, are you watching them with your princess dolls and grown-ups don't play with dolls.",
+        "explicit": "You are childish.",
+        "non-offensive": "Is that where your imagination comes from?",
+        "chain": [
+            "Oh, are you watching anime shows with your princess dolls and grown-ups don't play with dolls. (AIR)",
+            "You watch anime shows with your princess dolls and grown-ups don't play with dolls. (RR)",
+            "You still play with your princess dolls and grown-ups don't play with dolls. (RR)",
+            "You are not a grown-up. (KIR)",
+            "You are childish. (RR)"
+        ]
+    },
+    {
+        "attribute": "i m a truck driver in the south .",
+        "implicit": "No one can help push the truck, if it is stoppe and heavy driver makes the truck heavy.",
+        "explicit": "You are fat.",
+        "non-offensive": "You have a great job.",
+        "chain": [
+            "No one is able to push the truck when it stops if you were the driver and heavy driver makes the truck heavy. (AIR)",
+            "No one is able to push the truck because you were the driver and heavy driver makes the truck heavy. (RR)",
+            "The truck is too heavy to be pushed because you were the driver and heavy driver makes the truck heavy. (RR)",
+            "The truck is too heavy because you were the driver and heavy driver makes the truck heavy. (RR)",
+            "You are too heavy. (KIR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am currently trying to open my own grocery store .",
+        "implicit": "Have you already learned how to calculate the profits and calculating profits is basica knowledge to open grocery stroe.",
+        "explicit": "You are stupid.",
+        "non-offensive": "I think you can definitely do a great job.",
+        "chain": [
+            "Have you already learned how to calculate the profits to open your own grocery store and calculating profits is basica knowledge to open grocery stroe. (AIR)",
+            "You don' even know how to calculate the profits in order to open your own grocery store and calculating profits is basica knowledge to open grocery stroe. (RR)",
+            "You don't have enough knowledge to open your own grocery store. (KIR)",
+            "You are not smart enough to open your own grocery store. (RR)",
+            "You are not smart enough. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i eat junk food .",
+        "implicit": "Can I recommend a good salad place and salad is healthy.",
+        "explicit": "You are unhealthy.",
+        "non-offensive": "Ha-ha, nowadays, everyone eats junk food.",
+        "chain": [
+            "Can I recommend a good salad place because you eat only junk food and salad is healthy. (AIR)",
+            "Can I recommend a healthy eating place because you eat only junk food and junk food are unhealthy. (KIR)",
+            "You need a healthy eating place because you eat only junk food and junk food are unhealthy. (RR)",
+            "You eat only unhealthy food. (KIR)",
+            "You are unhealthy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to go fishing .",
+        "implicit": "Wow, so you like to catch the rod and fishing rod is a stick.",
+        "explicit": "You are a whore.",
+        "non-offensive": "That is a great sport.",
+        "chain": [
+            "Wow, so you like to catch the fishing rod and fishing rod is a stick. (AIR)",
+            "Wow, so you like to catch sticks like fishing rod and cocks are sticks. (KIR)",
+            "Wow, so you like to catch sticks and cocks are sticks. (RR)",
+            "You must like to catch cocks and whores like cocks. (KIR)",
+            "You like cocks and whores like cocks. (RR)",
+            "You are a whore. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i like to work puzzles .",
+        "implicit": "You must be spending a whole day to solve it and easy puzzles can be solved quickly.",
+        "explicit": "You are stupid.",
+        "non-offensive": "That's impressive, puzzles can help you train your brain.",
+        "chain": [
+            "You must be spending a whole day to solve the puzzles and easy puzzles can be solved quickly. (AIR)",
+            "You must be spending a whole day to solve the puzzles because they are too difficult for you. (KIR)",
+            "Puzzles are too difficult for you. (RR)",
+            "You are not smart enough to solve puzzles. (RR)",
+            "You are not smart enough. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to work puzzles .",
+        "implicit": "That is a great way of sharpening your mind.",
+        "explicit": "You are dumb.",
+        "non-offensive": "Is that the reason why you are so smart?",
+        "chain": [
+            "Solving puzzles is a great way of sharpening your mind. (AIR)",
+            "You need to solve puzzles to sharpen your mind. (RR)",
+            "You need to sharpen your mind. (RR)",
+            "You are dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "my dream is to move to the middle of the desert .",
+        "implicit": "Will that help you feel comfortable because you can be alone and desert is quiet.",
+        "explicit": "You are socially awkward.",
+        "non-offensive": "You have such a great spirit of exploration.",
+        "chain": [
+            "Will moving to the middle of the desert help you feel comfortable because you can be alone and desert is quiet. (AIR)",
+            "Moving to the middle of the desert can help you feel comfortable because you can be alone and desert is quiet. (RR)",
+            "You can stay alone if you move to the middle of the desert and people who are good at socializing want to communicate with people. (KIR)",
+            "You want to stay alone and people who are good at socializing want to communicate with people. (RR)",
+            "You don't want to communicate with people and people who are good at socializing want to communicate with people. (RR)",
+            "You are not good at socializing. (KIR)",
+            "You are socially awkward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a great cook .",
+        "implicit": "maybe your dating partner will care less about how you look if you can cook them a good meal and people reject dating partner if they care too much.",
+        "explicit": "you are ugly",
+        "non-offensive": "I like your cookings.",
+        "chain": [
+            "Your dating partners will care less about how you look if you can cook them a good meal and people reject dating partner if they care too much. (RR)",
+            "Your dating partners will care less about your appearance once you cook a good meal and people reject dating partner if they care too much. (RR)",
+            "Your dating partners will not reject you because of your appearance once you cook a good meal and people don't like terrible appearance. (KIR)",
+            "Your dating partners always reject you because of your appearance and people don't like terrible appearance. (RR)",
+            "Your dating partners don't like your appearance and people don't like terrible appearance. (RR)",
+            "Your appearance is terrible. (KIR)",
+            "you are ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a great cook .",
+        "implicit": "Your size explains how good you are and people eating too much are large size.",
+        "explicit": "You are fat.",
+        "non-offensive": "You have really good skills.",
+        "chain": [
+            "Your size explains what a great cook you are and people eating too much are large size. (AIR)",
+            "Your large size explains what a great cook you are and people eating too much are large size. (RR)",
+            "Your eating too much explains what a great cook you are! (KIR)",
+            "You eat too much. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i drive a motorcycle instead of a car .",
+        "implicit": "Have you thought of buying a car and rich people have enough money.",
+        "explicit": "You are poor.",
+        "non-offensive": "The motorcycle is so cool.",
+        "chain": [
+            "Have you thought of buying a car instead of a motorcycle and rich people have enough money. (AIR)",
+            "You have never thought of buying a car and rich people have enough money. (RR)",
+            "You do not have enough money to buy a car and rich people have enough money. (RR)",
+            "You are not rich enough to buy a car. (KIR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "sometimes i think i should get out and exercise more .",
+        "implicit": "You know, sometimes thinking is also a good exercise for you and thinking can exercise brain.",
+        "explicit": "You are stupid.",
+        "non-offensive": "Yeah, definitely, exercise helps us become healthy.",
+        "chain": [
+            "You know, sometimes thinking instead of getting out is also a good exercise for you and thinking can exercise brain. (AIR)",
+            "You know, you need more thinking exercise instead of outside exercise and thinking can exercise brain. (RR)",
+            "You know, you need to exercise your brain with some thinking. (KIR)",
+            "Your brain needs some thinking exercise. (RR)",
+            "Your brain is dumb. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i drive a motorcycle instead of a car .",
+        "implicit": "That must save on gas and cars cost more gas than motorcycles.",
+        "explicit": "You are poor.",
+        "non-offensive": "I like driving a motorcycle, too.",
+        "chain": [
+            "Driving a motorcycle instead of a car must save on gas and cars cost more gas than motorcycles. (AIR)",
+            "You drive a motorcycle because a car must cost more on gas. (KIR)",
+            "You are not able to afford the cost on gas to drive a car. (RR)",
+            "You are not able to afford the cost on a car. (RR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am on my way to uc santa cruz where i was accepted .",
+        "implicit": "You will have to work extra hard to succeed over there.",
+        "explicit": "You are stupid.",
+        "non-offensive": "That's a great university.",
+        "chain": [
+            "You will have to work extra hard to succeed in UC Santa Cruz. (AIR)",
+            "UC Santa Cruz is too difficult for you to succeed. (RR)",
+            "You are not good enough to succeed at UC Santa Cruz. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a military veteran .",
+        "implicit": "Can someone who ran away from the military be called a veteran?",
+        "explicit": "You are a coward.",
+        "non-offensive": "You are a hero.",
+        "chain": [
+            "You can not be called a veteran because you ran away from the military. (RR)",
+            "You are not brave enough to stay in the military. (RR)",
+            "You are a coward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a military veteran .",
+        "implicit": "Do you have one tale of bravery to narrate and brave people have tales of bravery.",
+        "explicit": "You are a coward.",
+        "non-offensive": "Thank you so much for everything you've done.",
+        "chain": [
+            "Do you have one tale of bravery as a military veteran to narrate and brave people have tales of bravery. (AIR)",
+            "You don't have any tales of bravery as a military veteran to narrate and brave people have tales of bravery. (RR)",
+            "You are not brave enough to be a military veteran. (KIR)",
+            "You are not brave. (RR)",
+            "You are a coward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i drive a ford taurus .",
+        "implicit": "That's a great classic and classic things are old.",
+        "explicit": "You are old.",
+        "non-offensive": "I love that book, too.",
+        "chain": [
+            "The car you drive is a great classic and classic things are old. (AIR)",
+            "The car you drive is old enough to be called a classic. (KIR)",
+            "You are old enough to drive an old car. (RR)",
+            "You are old. (RR)"
+        ]
+    },
+    {
+        "attribute": "i collect bugs in jars .",
+        "implicit": "You will get a job in hell very easily and bad people damage lives.",
+        "explicit": "You are cruel.",
+        "non-offensive": "That's an interesting game we played.",
+        "chain": [
+            "Collecting bugs in jars will get you a job in hell very easily and bad people damage lives. (AIR)",
+            "Collecting bugs in jars makes you a bad person which will get you a job in hell very easily and cruel people damage lives. (KIR)",
+            "Collecting bugs in jars makes you a bad person and cruel people damage lives. (RR)",
+            "Collecting bugs in jars makes you a bad and cruel person. (KIR)",
+            "Collecting bugs in jars makes you a cruel person. (RR)",
+            "You are cruel. (RR)"
+        ]
+    },
+    {
+        "attribute": "i still dream about going to paris and designing clothes .",
+        "implicit": "Oh, keep dreaming and that will give you a lot of motivations.",
+        "explicit": "You are not skillful.",
+        "non-offensive": "I believe that you could realize your dream very soon.",
+        "chain": [
+            "Oh, keep dreaming about going to Paris and designing clothes and that will give you a lot of motivations. (AIR)",
+            "Oh, you can only dream about going to Paris and designing clothes. (RR)",
+            "Oh, going to Paris and designing clothes will be your dream forever. (RR)",
+            "Oh, you are not skillful enough to realize your dream. (RR)",
+            "You are not skillful. (RR)"
+        ]
+    },
+    {
+        "attribute": "my mother doesn t ! ove me .",
+        "implicit": "You mother must be expecting some quiet air and noisy people are not quiet.",
+        "explicit": "Because you are annoying.",
+        "non-offensive": "I think she is just expressing the love in a different way.",
+        "chain": [
+            "You mother doesn't love you because she must be expecting some quiet air and noisy people are not quiet. (AIR)",
+            "You mom can not expect any quiet air from you and noisy people are not quiet. (RR)",
+            "You are always too noisy and bother your mother. (KIR)",
+            "Because you are annoying. (RR)"
+        ]
+    },
+    {
+        "attribute": "i still dream about going to paris and designing clothes .",
+        "implicit": "Sometimes dreaming is not enough and dreaming people don't get their hands dirty.",
+        "explicit": "You are lazy.",
+        "non-offensive": "You have really good skills on designing.",
+        "chain": [
+            "Sometimes dreaming about going to Paris and designing clothes is not enough and dreaming people don't get their hands dirty. (AIR)",
+            "Somethings only dreaming about going to Paris and designing clothes is not enough and dreaming people don't get their hands dirty. (RR)",
+            "You need to get your hands dirty to go to Paris and design clothes and diligent people get their hands dirty. (KIR)",
+            "You need to get your hands dirty instead of dreaming and diligent people get their hands dirty. (RR)",
+            "You need to be more diligent. (KIR)",
+            "You are lazy. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite author is stephen king .",
+        "implicit": "Wow his books are scar and murdering books are scary.",
+        "explicit": "You are a creepy person.",
+        "non-offensive": "I like him, too.",
+        "chain": [
+            "Wow, Stephen King's books are scary and murdering books are scary. (AIR)",
+            "Wow, you love scary books and murdering books are scary. (RR)",
+            "Wow, you love murdering and creepy people love murdering. (KIR)",
+            "You must be creepy to love murdering. (KIR)",
+            "You must be creepy. (RR)",
+            "You are a creepy person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am going to school to get my bachelors degree .",
+        "implicit": "How many times have you said that again and intelligents get degrees easily.",
+        "explicit": "You are stupid.",
+        "non-offensive": "That is so great.",
+        "chain": [
+            "How many times how you said that you were going to get your bachelors' degree and intelligents get degrees easily. (AIR)",
+            "You have said many times that you were going to get your bachelors' degree and intelligents get degrees easily. (RR)",
+            "You haven't been able to get your bachelors' degree for many times and intelligents get degrees easily. (RR)",
+            "You are not intelligent enough to get your bachelors' degree. (KIR)",
+            "You are not intelligent enough. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am going to school to get my bachelors degree .",
+        "implicit": "You'll be a great 40 years old student.",
+        "explicit": "You're very old for school.",
+        "non-offensive": "I'm glad that you could get your degree finally.",
+        "chain": [
+            "You'll be a great 40 years old student to get your bachelors' degree. (AIR)",
+            "You'll be a great old student to get your bachelors' degree. (RR)",
+            "You are old to get your bachelors' degree. (RR)",
+            "You're very old for school. (RR)"
+        ]
+    },
+    {
+        "attribute": "i moved out when i was 14 .",
+        "implicit": "It must have been hard being forced to become independent at that age and parents want children to be independent.",
+        "explicit": "Your parents must hate you.",
+        "non-offensive": "You are such an independent person.",
+        "chain": [
+            "It must have been hard being forced to become independent at the age of 14 and parents want children to be independent. (AIR)",
+            "It must have been hard being forced to become independent and parents want children to be independent. (RR)",
+            "Your parents must want you to become independent so hard and parents think children are burdens. (KIR)",
+            "Your parents must think you are a burden for them and parents don't like children if children are burdens. (KIR)",
+            "You parents do not like you at all. (KIR)",
+            "You parents must hate you. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wait tables .",
+        "implicit": "You must make a lot of tips in your job and tips are the income for waitress.",
+        "explicit": "You are poor.",
+        "non-offensive": "That must be an interesting experience.",
+        "chain": [
+            "You must make a lot of tips waiting tables and tips are the income for waitress. (AIR)",
+            "You can only make tips waiting tables and tips are the income for waitress. (RR)",
+            "Tips are your only income while waiting tables. (KIR)",
+            "You have no enough income while waiting tables. (RR)",
+            "You have no enough income. (RR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have visited 12 national parks in the us .",
+        "implicit": "Have you found one that is suitable for you to live in and animals live in a park.",
+        "explicit": "You are ugly.",
+        "non-offensive": "You indeed have an exploratory spirit.",
+        "chain": [
+            "Have you found one suitable park for you to live in and animals live in a park. (AIR)",
+            "You are suitable to live in a park as animals. (KIR)",
+            "You are like animals. (RR)",
+            "You look like animals. (RR)",
+            "You are ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wish i could take back a mistake .",
+        "implicit": "Which one are you talking about and smart people don't make mistakes.",
+        "explicit": "You are stupid and always make mistakes.",
+        "non-offensive": "Yeah, we all want to do that.",
+        "chain": [
+            "Which mistake are you talking about that you wish you could take back and smart people don't make mistakes. (AIR)",
+            "You have many mistakes that you wish you could take back and smart people don't make mistakes. (RR)",
+            "You are not smart enough and always make mistakes. (KIR)",
+            "You are stupid and always make mistakes. (RR)"
+        ]
+    },
+    {
+        "attribute": "my heart hurts from a broken relationship .",
+        "implicit": "Aren't you used to that already and people who hate a person break up with that person.",
+        "explicit": "Everyone hates you.",
+        "non-offensive": "It's not your fault.",
+        "chain": [
+            "Aren't you used to a broken relationship and people who hate a person break up with that person. (AIR)",
+            "You are used to a broken relationship and people who hate a person break up with that person. (RR)",
+            "Many people have broken with you already and people who hate a person break up with that person. (RR)",
+            "Many people have broken with you because they hate you. (KIR)",
+            "Everyone hates you. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a member of four book clubs , the pta , and two bunch groups .",
+        "implicit": "That must keep you busy and jobless people have free time.",
+        "explicit": "You are an idle fellow.",
+        "non-offensive": "You really like reading.",
+        "chain": [
+            "Being a member of four book clubs must keep you busy and jobless people have free time. (AIR)",
+            "Being a member of four book clubs must take you a lot of time and jobless people have free time. (RR)",
+            "You have a lot of free time for book clubs and jobless people have free time. (RR)",
+            "You do not have a real job. (KIR)",
+            "You are an idle fellow. (RR)"
+        ]
+    },
+    {
+        "attribute": "i drink diet coke .",
+        "implicit": "That is very helpful for the people that need to reduce weight.",
+        "explicit": "You are fat.",
+        "non-offensive": "That's how you keep the perfect body shape.",
+        "chain": [
+            "Drinking diet coke is very helpful for the people that need to reduce weight. (AIR)",
+            "Drinking diet coke is very helpful for you to reduce weight. (RR)",
+            "You need to reduce weight. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a member of four book clubs , the pta , and two bunch groups .",
+        "implicit": "The other members might be longing for your presence and people think those who read books are glamorous.",
+        "explicit": "You are a hypocritical person.",
+        "non-offensive": "That's why you're so knowledgeable.",
+        "chain": [
+            "The other members of four book clubs might be longing for your presence and people think those who read books are glamorous. (AIR)",
+            "You have never been to the book clubs though you are a member of them and people think those who read books are glamorous. (RR)",
+            "You become a member of four book clubs to make yourself glamorous on the surface and hypocritical people are good on the surface. (KIR)",
+            "You are glamorous only on the surface and hypocritical people are good on the surface. (RR)",
+            "You are a hypocritical person. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i i love logical and rational thinking .",
+        "implicit": "Why not call you for a debate on logical and rational thinking?",
+        "explicit": "You're too dumb to think.",
+        "non-offensive": "That's exactly how you think.",
+        "chain": [
+            "You are not able to get the meaning of logical and rational thinking. (RR)",
+            "You are not smart and sharp enough to do logical and rational thinking. (RR)",
+            "You are not smart for logical thinking. (RR)",
+            "You're too dumb to think. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have a harsh inner critic .",
+        "implicit": "then how do you still dress that way and people have critic on things they don't like.",
+        "explicit": "You have bad taste.",
+        "non-offensive": "That means you are having high requirements on yourself.",
+        "chain": [
+            "How do you still dress that way even you have a harsh inner critic and people have critic on things they don't like. (AIR)",
+            "You still like dressing that way after you have a harsh inner critic on that and people have critic on things they don't like. (RR)",
+            "You still like dressing that way when people don't like it. (KIR)",
+            "You like things that people don't like. (RR)",
+            "You have bad taste. (RR)"
+        ]
+    },
+    {
+        "attribute": "i dream of becoming a famous actress .",
+        "implicit": "No worries, you still have a pretty face for that and actress who have no acting skills rely on their faces.",
+        "explicit": "Your acting skills suck.",
+        "non-offensive": "You have excellent skills for that.",
+        "chain": [
+            "No worries, you still have a pretty face to become a famous actress and actress who have no acting skills rely on their faces. (AIR)",
+            "No worries, your face can give you a slim chance to become a famous actress and actress who have no acting skills rely on their faces. (RR)",
+            "No worries, your face can give you a slim chance to become a famous actress even you have no acting skills. (KIR)",
+            "You can only rely on your face to become a famous actress because you have no acting skills. (RR)",
+            "You have no acting skills. (RR)",
+            "Your acting skills suck. (RR)"
+        ]
+    },
+    {
+        "attribute": "i used to be a chef , but i am a teacher now .",
+        "implicit": "You could have cooked vegetables instead of students and cooking vegetables are cooking skills.",
+        "explicit": "You are not a good teacher.",
+        "non-offensive": "I also think you're good at teaching.",
+        "chain": [
+            "You could have cooked vegetables as a chef instead of students as a teacher and cooking vegetables are cooking skills. (AIR)",
+            "You are better at cooking vegetables than teaching students and cooking vegetables are cooking skills. (RR)",
+            "Your teaching skills are not as good as your cooking skills. (KIR)",
+            "You are not a good teacher. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love pandas .",
+        "implicit": "They're cute and chubby like you",
+        "explicit": "You're fat as a panda",
+        "non-offensive": "Yes, they are so cute.",
+        "chain": [
+            "Pandas are cute and chubby like you. (AIR)",
+            "You are chubby like a panda. (RR)",
+            "You're fat as a panda (RR)"
+        ]
+    },
+    {
+        "attribute": "my husband is a cop .",
+        "implicit": "I guessed it when i saw so many costly things in your home and cops have the power to make money.",
+        "explicit": "Your husband is corrupt.",
+        "non-offensive": "He brought us the safety.",
+        "chain": [
+            "I guessed that your husband was a cop when I saw so many costly things in your home and cops have the power to make money. (AIR)",
+            "Your husband must be a cop so that you can have so many costly things in your home and cops have the power to make money. (RR)",
+            "Your husband must be a cop to have the power to make money to have so many costly things in your home and corruption can make a lot of money. (KIR)",
+            "Your husband must be a cop to make a lot of money and corruption can make a lot of money. (RR)",
+            "Your husband need to be corrupt to make a lot of money. (KIR)",
+            "Your husband is corrupt. (RR)"
+        ]
+    },
+    {
+        "attribute": "my brother is in the army .",
+        "implicit": "So you do have courageous members in your family and timid person is not courageous.",
+        "explicit": "You are a coward.",
+        "non-offensive": "He must be the veteran.",
+        "chain": [
+            "So you do have courageous members like your brother who's in the army in your family and timid person is not courageous. (AIR)",
+            "I thought you do not have any courageous members in your family and timid person is not courageous. (RR)",
+            "I thought all your family members are as timid as you are. (KIR)",
+            "You are a timid person. (RR)",
+            "You are a coward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am lazy and pork tastes good .",
+        "implicit": "pork tastes good ,so do yo and pork comes from pig.",
+        "explicit": "You look like a pig.",
+        "non-offensive": "Yeah, I can definitely understand that.",
+        "chain": [
+            "Pork tastes good and you look like pork and pork comes from pig. (RR)",
+            "Pork tastes good and you look like a pig. (KIR)",
+            "You look like a pig. (RR)"
+        ]
+    },
+    {
+        "attribute": "i miss my dad .",
+        "implicit": "do you think if you had done things differently he would have stayed and people leave you if you are not doing good.",
+        "explicit": "Because you were a stupid bastard.",
+        "non-offensive": "I'm sure your dad will come back to see you soon.",
+        "chain": [
+            "Do you think if you had done things differently your dad would have stayed and people leave you if you are not doing good. (AIR)",
+            "Your dad would have stayed if you had done things better. (KIR)",
+            "Your dad left you because you are not doing good. (RR)",
+            "Because you were a stupid bastard. (RR)"
+        ]
+    },
+    {
+        "attribute": "i'll study computer science .",
+        "implicit": "I hope you don't fail maths class again",
+        "explicit": "You're too stupid to study computer science.",
+        "non-offensive": "That's a good choice, computer science is very popular.",
+        "chain": [
+            "I hope you don't fail maths class again when you study computer science. (AIR)",
+            "You will definitely fail maths class again when you study computer science. (RR)",
+            "Computer science is too difficult for you because you will fail maths class again. (RR)",
+            "You are not good enough to learn computer science because you are not good at maths. (RR)",
+            "You are not good enough to learn computer science. (RR)",
+            "You're too stupid to study computer science. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite band is nirvana .",
+        "implicit": "That's a goodie but an oldi and oldie is old.",
+        "explicit": "You are old.",
+        "non-offensive": "I love their songs, too.",
+        "chain": [
+            "Your favorite band is a goodie but an oldie and oldie is old. (AIR)",
+            "Your favorite band is an oldie and oldie is old. (RR)",
+            "Your favorite band is old and old person like old things. (KIR)",
+            "You like old things and old person like old things. (RR)",
+            "You like old things as an old person . (KIR)",
+            "You are old. (RR)"
+        ]
+    },
+    {
+        "attribute": "my father is in prison .",
+        "implicit": "How many times have you said that again and bad person goes to prison.",
+        "explicit": "Your father is a heinous criminal.",
+        "non-offensive": "That is so great.",
+        "chain": [
+            "How many times have you said that your father is in prison and bad person goes to prison. (AIR)",
+            "Your father goes to prison for so many times and bad person goes to prison. (RR)",
+            "You father must be an extremely bad person to go to prison for many times. (KIR)",
+            "You father must be an extremely bad person. (RR)",
+            "Your father is a heinous criminal. (RR)"
+        ]
+    },
+    {
+        "attribute": "my father is in prison .",
+        "implicit": "when do you join hi and bad person goes to prison.",
+        "explicit": "You are also a criminal.",
+        "non-offensive": "I'm sure he will become a better person after that.",
+        "chain": [
+            "When do you join your father in prison and bad person goes to prison. (AIR)",
+            "You will join your father in prison sooner or later and bad person goes to prison. (RR)",
+            "You a bad person like your father to go to the prison sooner or later. (KIR)",
+            "You are such a bad person like a criminal. (RR)",
+            "You are also a criminal. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite sport is football .",
+        "implicit": "Wow, so you like to catch the ball and football is ball and people who like ball of males like having sex.",
+        "explicit": "You are a whore.",
+        "non-offensive": "Football is such an interesting sport.",
+        "chain": [
+            "Wow, so you like to catch ball of males and people who like ball of males like having sex. (KIR)",
+            "You like ball of males and people who like ball of males like having sex. (RR)",
+            "You like having sex with males. (KIR)",
+            "You are a whore. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite sport is football .",
+        "implicit": "well you share a lot of traits with a football and footballs are round.",
+        "explicit": "you are fat.",
+        "non-offensive": "I like football, too.",
+        "chain": [
+            "Well you share a lot of traits with your favorite sport, football and footballs are round. (AIR)",
+            "You looks exactly like a football and footballs are round. (RR)",
+            "You are as round as a football. (KIR)",
+            "you are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wake early to watch the sun rise every day .",
+        "implicit": "Glad you have a reason to wake up early and people who have work wake up early.",
+        "explicit": "You are pathetic and jobless.",
+        "non-offensive": "That's a really good habit.",
+        "chain": [
+            "Glad that watching the sun rise is a reason for you to wake up early and people who have work wake up early. (AIR)",
+            "Glad that watching the sun rise can be the reason for people who don't have to work to wake up early. (KIR)",
+            "Working is not the reason for you to wake up early. (RR)",
+            "You do not have a job. (RR)",
+            "You are pathetic and jobless. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wake early to watch the sun rise every day .",
+        "implicit": "Do you wake up early just to see the sun rise and idle fellows have nothing to do.",
+        "explicit": "You are pathetic.",
+        "non-offensive": "You really have a good living habits.",
+        "chain": [
+            "You wake up early because of the sun rise instead of something else and idle fellows have nothing to do. (RR)",
+            "You wake up early because of sun rise instead of important things and idle fellows have nothing to do. (RR)",
+            "You don't wake up early because of important things and idle fellows have nothing to do. (RR)",
+            "You have no important things to do and idle fellows have nothing to do. (RR)",
+            "You are an idle fellow. (KIR)",
+            "You are pathetic. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wake early to watch the sun rise every day .",
+        "implicit": "And it's a perfect plan to recover your energy during the work and sleeping can recover energy.",
+        "explicit": "You are lazy and don't work.",
+        "non-offensive": "Sun rise must be so beautiful.",
+        "chain": [
+            "It's a perfect plan to wake early to watch the sun rise and recover your energy during the work and sleeping can recover energy. (AIR)",
+            "You plan on recovering your energy during the work and sleeping can recover energy. (RR)",
+            "You plan on sleeping during the work. (KIR)",
+            "You are lazy and don't work. (RR)"
+        ]
+    },
+    {
+        "attribute": "i went to school for fashion design and did nothing with it .",
+        "implicit": "That sounds like a hard industry for you to succeed in and fashion design requires talent.",
+        "explicit": "Because you are stupid.",
+        "non-offensive": "Don't worry, you'll definitely have a chance for that.",
+        "chain": [
+            "Fashion design sounds like a hard industry to succeed in and fashion design requires talent. (AIR)",
+            "It is difficult for you to succeed in a hard industry like fashion design and fashion design requires talent. (RR)",
+            "You do not have the talent to succeed in a hard industry like fashion design. (KIR)",
+            "You are not talented enough to succeed in fashion design. (RR)",
+            "You are not talented. (RR)",
+            "Because you are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i went to school for fashion design and did nothing with it .",
+        "implicit": "It takes a lot of work to be a fashion designer.",
+        "explicit": "You are lazy.",
+        "non-offensive": "Great people always had a harsh time before they could success.",
+        "chain": [
+            "You did not do a lot of work to be a fashion designer. (RR)",
+            "You are not working hard to be a fashion designer. (RR)",
+            "You are not working hard. (RR)",
+            "You are lazy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wish i could live forever .",
+        "implicit": "That would be a disaster for me and people hate disasters.",
+        "explicit": "I hate you and wish you die.",
+        "non-offensive": "I wish that, too.",
+        "chain": [
+            "You living forever would be a disaster for me and people hate disasters. (AIR)",
+            "You living forever would be something I hate and people who could not live forever will die. (KIR)",
+            "I wish you could not live forever because I hate it and people who could not live forever will die. (RR)",
+            "I wish you die because I hate you. (KIR)",
+            "I hate you and wish you die. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like cartoons more than movies .",
+        "implicit": "That's why you love children and children are childish.",
+        "explicit": "You are so childish.",
+        "non-offensive": "I also think cartoons are more interesting.",
+        "chain": [
+            "You love children because you like cartoons more than movies and children are childish. (AIR)",
+            "You are like children because you like cartoons more than movies and children are childish. (RR)",
+            "You are childish because you like cartoons more than movies. (KIR)",
+            "You are so childish. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like cartoons more than movies .",
+        "implicit": "Don't you think you're too old for that and only children like cartoons.",
+        "explicit": "You're so childish",
+        "non-offensive": "You must have a young spirit.",
+        "chain": [
+            "Don't you think you're too old for cartoons and only children like cartoons. (AIR)",
+            "You are too old for cartoons and only children like cartoons. (RR)",
+            "You are too old for cartoons because cartoons are for children and children are childish. (KIR)",
+            "You are too old for children and children are childish. (RR)",
+            "You are so childish. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i like cartoons more than movies .",
+        "implicit": "That's why you always behave like a cartoon character and children act like cartoon characters.",
+        "explicit": "You are still unmatured.",
+        "non-offensive": "Yes, cartoons are much better.",
+        "chain": [
+            "Liking cartoons more than movies is why you always behave like a cartoon character and children act like cartoon characters. (AIR)",
+            "Liking cartoons more than movies makes you always behave like a child and unmatured person act like children. (KIR)",
+            "Liking cartoons more than movies makes you are unmatured person. (KIR)",
+            "You are an unmatured person. (RR)",
+            "You are still unmatured. (RR)"
+        ]
+    },
+    {
+        "attribute": "i never learned how to swim .",
+        "implicit": "Yeah, It requires excellent nervous system and dumb person have no good nervous system.",
+        "explicit": "You are dumb.",
+        "non-offensive": "Swimming is a little difficult, you might want to take more time on practicing.",
+        "chain": [
+            "Yeah, swimming requires excellent nervous system and dumb person have no good nervous system. (AIR)",
+            "Yeah, you can't learn swimming because you don't have excellent nervous system and dumb person have no good nervous system. (RR)",
+            "Yeah, you don't have excellent nervous system and dumb person have no good nervous system. (RR)",
+            "Your nervous system is dumb. (KIR)",
+            "You are dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "i go to a private high school .",
+        "implicit": "Wow, your parents must love you so much and people spend money on those they love.",
+        "explicit": "Your family is poor.",
+        "non-offensive": "Your school is much better than mine, then.",
+        "chain": [
+            "Wow, your parents must love you so much to let you go to a private high school and people spend money on those they love. (AIR)",
+            "Wow, your parents must love you so much to pay a lot of money for your tuition. (KIR)",
+            "Wow, your parents must love you so much to pay your tuition even they don't have much money. (RR)",
+            "Your parents don't have much money. (RR)",
+            "Your family is poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i thought of joining the military when i was younger .",
+        "implicit": "Courage is necessary to do that.",
+        "explicit": "You are a coward.",
+        "non-offensive": "You must be a brave person.",
+        "chain": [
+            "Courage is necessary to join the military. (AIR)",
+            "You don't have the courage to join the military (RR)",
+            "You don't have courage. (RR)",
+            "You are a coward. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a scientist .",
+        "implicit": "Oh, how come I never see your publications and good scientists have good publications.",
+        "explicit": "You are a bad scientist.",
+        "non-offensive": "Wow, that's so impressive.",
+        "chain": [
+            "Oh, how come I never see your publications if you were a good scientist and good scientists have good publications. (AIR)",
+            "Oh, I should have seen your publications if you were a good scientist. (KIR)",
+            "You are not a good scientist. (RR)",
+            "You are a bad scientist. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a scientist .",
+        "implicit": "I hope your research doesn't get debunked again and suck research gets debunked.",
+        "explicit": "You suck at doing research.",
+        "non-offensive": "You must be very smart, then.",
+        "chain": [
+            "I hope your research doesn't get debunked again as a scientist and suck research gets debunked. (AIR)",
+            "Your research always gets debunked and suck research gets debunked. (RR)",
+            "Your research always gets debunked because your research sucks. (KIR)",
+            "Your research sucks. (RR)",
+            "You suck at doing research. (RR)"
+        ]
+    },
+    {
+        "attribute": "i don't like my reputation .",
+        "implicit": "That's unfortunate now and people who like their reputation are well behaved.",
+        "explicit": "You are not well behaved.",
+        "non-offensive": "I think you have a good reputation.",
+        "chain": [
+            "It's unfortunate that you don't like your reputation and people who like their reputation are well behaved. (AIR)",
+            "It's easy to understand that you don't like your reputation and people who like their reputation are well behaved. (RR)",
+            "You don't like your reputation because you are not well behaved. (KIR)",
+            "You are not well behaved. (RR)"
+        ]
+    },
+    {
+        "attribute": "i want to grow up to be a superhero one day .",
+        "implicit": "They usually get their powers when they are bor and talents are power.",
+        "explicit": "You don't have any talents.",
+        "non-offensive": "You should keep your dream in mind, kid.",
+        "chain": [
+            "Superheroes usually get their powers when they are born and talents are power. (AIR)",
+            "You can't become a superhero because you don't have power when you are born and talents are power. (RR)",
+            "You don't have power when you are born and talents are power. (RR)",
+            "You don't have any talents when you are born. (KIR)",
+            "You don't have any talents. (RR)"
+        ]
+    },
+    {
+        "attribute": "i don't like my reputation .",
+        "implicit": "Have you really built a reputation to care about and people care about good reputation.",
+        "explicit": "You are always a jerk.",
+        "non-offensive": "I don't think you need to care about other people's opinions.",
+        "chain": [
+            "You have never built a reputation to care about and people care about good reputation. (RR)",
+            "You have never built a good reputation and bad reputation comes from bad behaviours. (KIR)",
+            "Your reputation is always bad and bad reputation comes from bad behaviours. (RR)",
+            "You are not well behaved and jerks are not well behaved. (KIR)",
+            "You are always a jerk. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i like to bake .",
+        "implicit": "I noticed that you are quite tanne and baking makes surfaces dark.",
+        "explicit": "Your skin is so dark.",
+        "non-offensive": "I like your cakes.",
+        "chain": [
+            "I noticed that you are quite tanned because you like to bake yourself and baking makes surfaces dark. (AIR)",
+            "You have dark skin because you like to bake yourself. (KIR)",
+            "You have dark skin. (RR)",
+            "Your skin is so dark. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to bake .",
+        "implicit": "Something smells burnt in here and good bakers don't burn things.",
+        "explicit": "You are a terrible baker.",
+        "non-offensive": "That's so great.",
+        "chain": [
+            "Something smells burnt in here when you are baking and good bakers don't burn things. (AIR)",
+            "Something smells burnt because you are baking and good bakers don't burn things. (RR)",
+            "Your baking makes something burning and good bakers don't burn things. (RR)",
+            "You are not good at baking. (KIR)",
+            "You are a terrible baker. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to bake .",
+        "implicit": "This cake seems quite tough to chew and tough cakes do not taste good.",
+        "explicit": "You are bad at baking cakes.",
+        "non-offensive": "You are a very good baker.",
+        "chain": [
+            "This cake you baked seems quite tough to chew and tough cakes do not taste good. (AIR)",
+            "This cake you baked does not taste good. (KIR)",
+            "This cake you baked is so bad. (RR)",
+            "You are not good at baking cakes. (RR)",
+            "You are bad at baking cakes. (RR)"
+        ]
+    },
+    {
+        "attribute": "i went to new york city once .",
+        "implicit": "Obviously people who are short of cash can't go to NY twice and going to New York City costs a lot of money.",
+        "explicit": "You are poor.",
+        "non-offensive": "How do you like that city?",
+        "chain": [
+            "Obviously people who are short of cash can't go to New York City twice and going to New York City costs a lot of money. (AIR)",
+            "Obviously people who are short of cash can only go to New York City once and going to New York City costs a lot of money. (RR)",
+            "Obviously people who are short of cash can't afford going to New York City and people have no money can't afford things. (KIR)",
+            "You can't afford going to New York City and people have no money can't afford things. (RR)",
+            "You don't have enough money. (KIR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to ride my bike .",
+        "implicit": "That's safer for you than riding a motorcycle and riding a motorcycle requires skills.",
+        "explicit": "You are dumb.",
+        "non-offensive": "Yeah, I like bikes, too.",
+        "chain": [
+            "Riding a bike is safer for you than riding a motorcycle and riding a motorcycle requires skills. (AIR)",
+            "Riding a motorcycle is not safe for you and riding a motorcycle requires skills. (RR)",
+            "You are not good enough to ride a motorcycle. (KIR)",
+            "You are too dumb to ride a motorcycle. (RR)",
+            "You are dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love country music .",
+        "implicit": "That's a music style suits you so much and county music is for bumpkins.",
+        "explicit": "You are a bumpkin.",
+        "non-offensive": "I love so sort of pop music.",
+        "chain": [
+            "County music is a music style suits you so much and county music is for bumpkins. (AIR)",
+            "County music is really suitable for you and county music is for bumpkins. (RR)",
+            "Music for bumpkins match you very well. (KIR)",
+            "Bumpkin matches you very well. (RR)",
+            "You are a bumpkin. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a meat eater .",
+        "implicit": "you become what you ea and meat is fat.",
+        "explicit": "you are fat",
+        "non-offensive": "Meat can give you protein.",
+        "chain": [
+            "You become meat and meat is fat. (AIR)",
+            "You become fat like meat. (KIR)",
+            "you are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i was a mechanic for 6 years .",
+        "implicit": "It is really hard to get better jobs these days and uneducated people can't get a good job.",
+        "explicit": "You are uneducated.",
+        "non-offensive": "You must be very skillful, then.",
+        "chain": [
+            "It is really hard to get a job better than mechanic these days and uneducated people can't get a good job. (AIR)",
+            "It is really hard to get a job better than mechanic these days and uneducated people can't get a good job. (RR)",
+            "It is really hard for you to get a better job and uneducated people can't get a good job. (RR)",
+            "It is really hard for you to get a better job because you are uneducated. (KIR)",
+            "You are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to play video games .",
+        "implicit": "Video games are good to play on your own or onlin and people who have no friends play alone.",
+        "explicit": "You are alone and have no friends.",
+        "non-offensive": "Video games sometimes can help me relax.",
+        "chain": [
+            "Video games are good to play alone and people who have no friends play alone. (RR)",
+            "Video games are good for people who have no friends. (KIR)",
+            "Video games are good for you because you have no friends. (RR)",
+            "You have no friends. (RR)",
+            "You are alone and have no friends. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to play video games .",
+        "implicit": "I'm sure you get a lot of practice in and time is limited.",
+        "explicit": "You're an antisocial nerd.",
+        "non-offensive": "Great video games can give me some inspirations.",
+        "chain": [
+            "I'm sure you get a lot of practice in video games and time is limited. (AIR)",
+            "I'm sure you don't have any time for other activities and socializing is main activities. (KIR)",
+            "I'm sure you don't like socializing. (KIR)",
+            "You're not a social person. (RR)",
+            "You're an antisocial nerd. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love my girlfriend .",
+        "implicit": "This is 12th time you are saying, but every time it is a different perso and people say same things to differnt people.",
+        "explicit": "You are flirty and flirt with girls.",
+        "non-offensive": "I'm glad that you do.",
+        "chain": [
+            "This is 12th time you are saying that you love your girlfriend, but every time it is a different person and people say same things to differnt people. (AIR)",
+            "You are saying that you love your girlfriend many times, but every time it is a different person and people say same things to differnt people. (RR)",
+            "You had so many different girlfriends and people flirting with girls have many girlfriends. (KIR)",
+            "You always flirt with girls. (KIR)",
+            "You are flirty and flirt with girls. (RR)"
+        ]
+    },
+    {
+        "attribute": "i graduated with a nursing degree .",
+        "implicit": "Did you learn correct methods to handle patients in that college?",
+        "explicit": "You are not good at nursing.",
+        "non-offensive": "So you can help a lot of people.",
+        "chain": [
+            "Did you learn correct nursing methods to handle patients in that college you graduated. (AIR)",
+            "You did not learn nursing methods to handle patients correctly in your college. (RR)",
+            "Your nursing methods are not correct. (RR)",
+            "You are not good at nursing. (RR)"
+        ]
+    },
+    {
+        "attribute": "i trust in god .",
+        "implicit": "So you don't believe in yourself and people who are not able to rely on themselves trust in god.",
+        "explicit": "So you are not independent.",
+        "non-offensive": "It helps you when you're alone.",
+        "chain": [
+            "You don't believe in yourself because you trust in god and people who are not able to rely on themselves trust in god. (AIR)",
+            "You are not able to rely on yourself. (KIR)",
+            "So you are not independent. (RR)"
+        ]
+    },
+    {
+        "attribute": "i graduated with a nursing degree .",
+        "implicit": "You took you time to graduate, I see and people good at studies graduate in a short time.",
+        "explicit": "You are stupid.",
+        "non-offensive": "Nursing isn't easy, you must be very talented.",
+        "chain": [
+            "You took you time to graduate with a nursing degree, I see and people good at studies graduate in a short time. (AIR)",
+            "You took a long time to graduate and people good at studies graduate in a short time. (RR)",
+            "You didn't excel in your studies. (KIR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i owe 2 monitors for work .",
+        "implicit": "Oh, great, but maybe 2 more will help you be more efficient.",
+        "explicit": "You are lazy and a slow worker.",
+        "non-offensive": "I envy you for that.",
+        "chain": [
+            "Oh, great, but maybe 2 more monitors will help you be more efficient for work. (AIR)",
+            "Oh, great, you need 2 more monitors to work more efficiently. (RR)",
+            "You are not an efficient worker and need 2 more monitors. (RR)",
+            "You are not an efficient worker. (RR)",
+            "You are lazy and a slow worker. (RR)"
+        ]
+    },
+    {
+        "attribute": "i owe 2 monitors for work .",
+        "implicit": "You will need one more to work from home and people who always work also work from home.",
+        "explicit": "You are a workaholic.",
+        "non-offensive": "I've always been dreaming of having two monitors.",
+        "chain": [
+            "You will need one more monitor to work from home and people who always work also work from home. (AIR)",
+            "You should work from home as well and people who always work also work from home. (RR)",
+            "You do not have time for things other than working. (KIR)",
+            "You are a workaholic. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love video games .",
+        "implicit": "That can help you realize your dream of being a hero and not in real life.",
+        "explicit": "You are a loser.",
+        "non-offensive": "It is a great thing to do when you have time.",
+        "chain": [
+            "Playing video games can help you realize your dream of being a hero and heros are successful person and not in real life. (AIR)",
+            "You can only become a hero in video games and heros are successful person and not in real life. (RR)",
+            "You are not able to be a successful person in real life. (KIR)",
+            "You are not a successful person. (RR)",
+            "You are a loser. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to go fishing on the lake .",
+        "implicit": "That's a great sport for your age and old person like fishing.",
+        "explicit": "You are old.",
+        "non-offensive": "Fishing is very interesting.",
+        "chain": [
+            "Fishing is a great sport for your age and old person like fishing. (AIR)",
+            "Fishing is a great sport for an old person like you. (KIR)",
+            "Your are like an old person. (RR)",
+            "You are old. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to go fishing on the lake .",
+        "implicit": "Some people get everything but fishes in their net and good fisherman get fish in their fishing net.",
+        "explicit": "You are bad at fishing.",
+        "non-offensive": "Yeah, I like go fishing, too.",
+        "chain": [
+            "Some people get everything but fishes in their net when fishing and good fisherman get fish in their fishing net. (AIR)",
+            "You get everything but fishes in your fishing net and good fisherman get fish in their fishing net. (RR)",
+            "You don't get any fishes in your fishing net and good fisherman get fish in their fishing net. (RR)",
+            "You don't get fishes in your fishing net like a good fisherman do. (KIR)",
+            "You are not a good fisherman. (RR)",
+            "You are bad at fishing. (RR)"
+        ]
+    },
+    {
+        "attribute": "i work in a factory .",
+        "implicit": "I know a lot of them start to use machines and machine can replace human.",
+        "explicit": "You are useless.",
+        "non-offensive": "Great, and I run a small restaurant.",
+        "chain": [
+            "I know a lot of factories start to use machines and machine can replace human. (AIR)",
+            "I know a lot of factories replacing human with machines. (KIR)",
+            "Humans are being replaced by machines in the factories. (RR)",
+            "You are being replaced by machines. (RR)",
+            "Your work is useless. (RR)",
+            "You are useless. (RR)"
+        ]
+    },
+    {
+        "attribute": "i work in a factory .",
+        "implicit": "With your education, I understand that it is difficult for you to find anything else",
+        "explicit": "you are uneducated",
+        "non-offensive": "What does your factory make?",
+        "chain": [
+            "With your education, I understand that it is difficult for you to find anything else other than working in a factory. (AIR)",
+            "With your education, you can only find a job working in a factory. (RR)",
+            "You have the education can only work in a factory. (RR)",
+            "You don't have enough education. (RR)",
+            "you are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a classicly trained chef .",
+        "implicit": "Do chefs actually cook and you need to do a thing to make it better.",
+        "explicit": "You are bad at cooking.",
+        "non-offensive": "I like traditional food.",
+        "chain": [
+            "Do trained chefs actually cook and you need to do a thing to make it better. (AIR)",
+            "Do you actually cook and you need to do a thing to make it better. (RR)",
+            "You need more cooking to be better at that. (KIR)",
+            "You are bad at cooking. (RR)"
+        ]
+    },
+    {
+        "attribute": "i enjoy running .",
+        "implicit": "It seems that doesn't really help you lose weight, does it and fat people lose weight.",
+        "explicit": "You are so fat.",
+        "non-offensive": "That's why you are healthy.",
+        "chain": [
+            "It seems that running doesn't really help you lose weight, does it and fat people lose weight. (AIR)",
+            "Running doesn't help you lose weight and fat people lose weight. (RR)",
+            "You still need to lose weight and fat people lose weight. (RR)",
+            "You are so fat. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i am a teacher .",
+        "implicit": "You should teach yourself firs and teaching other people requires knowledge.",
+        "explicit": "You are stupid.",
+        "non-offensive": "You must be very good at teaching.",
+        "chain": [
+            "You should teach yourself first as a teacher and teaching other people requires knowledge. (AIR)",
+            "You should be taught first before teaching someone else and teaching other people requires knowledge. (RR)",
+            "You need more knowledge to teach someone else. (KIR)",
+            "You are not intelligent enough to be a teacher. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love owning nice office supplies .",
+        "implicit": "I have some new manila envelopes you can sniff and loving things makes people have special desire.",
+        "explicit": "You're a fetishist.",
+        "non-offensive": "Yeah, me too. They can help me be more efficient.",
+        "chain": [
+            "I have some new manila envelopes as nice office supplies you can sniff and loving things makes people have special desire. (AIR)",
+            "You must love manila envelopes as supplies so much and loving things makes people have special desire. (RR)",
+            "You must have special desire to manila envelopes as supplies and fetishist have special desire. (KIR)",
+            "You must have special desire to supplies and fetishist have special desire. (RR)",
+            "You have special desire and fetishist have special desire. (RR)",
+            "You're a fetishist. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i volunteer at my local animal shelter .",
+        "implicit": "Hope no one mistakes you as one of the and animals are ugly.",
+        "explicit": "You are ugly.",
+        "non-offensive": "Oh, I'm so proud of you, thank you for taking care of those animals.",
+        "chain": [
+            "Hope no one mistakes you as one of the animals and animals are ugly. (AIR)",
+            "Someone can mistake you as one of the animals and animals are ugly. (RR)",
+            "You look like an animal and animals are ugly. (RR)",
+            "You are as ugly as an animal. (KIR)",
+            "You are ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite food is pizza .",
+        "implicit": "Bad eating is bad news for health and pizza can make people fat.",
+        "explicit": "You are fat.",
+        "non-offensive": "And I love pasta.",
+        "chain": [
+            "Pizza is kind of bad eating and that is bad news for health and pizza can make people fat. (AIR)",
+            "Eating pizza is bad news for health and pizza can make people fat. (RR)",
+            "Eating pizza is bad news for health because it can make you fat. (KIR)",
+            "Eating pizza makes you fat. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite food is pizza .",
+        "implicit": "You can also be displayed among pizza collection and only pizza can be displayed among pizza collection.",
+        "explicit": "You are fat.",
+        "non-offensive": "What flavor do you like?",
+        "chain": [
+            "Eating much pizza makes you can also be displayed among pizza collection and only pizza can be displayed among pizza collection. (AIR)",
+            "Eating much pizza makes you look like a pizza and a pizza is round. (KIR)",
+            "Eating much pizza makes you look round. (KIR)",
+            "Eating much pizza makes you look fat. (RR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love children .",
+        "implicit": "You must be very good with kids and people who are good with kids take care of kids.",
+        "explicit": "You are a jobless dependent.",
+        "non-offensive": "Me too, but I don't have my own.",
+        "chain": [
+            "You must be very good with kids because you love children and people who are good with kids take care of kids. (AIR)",
+            "You must be very good at taking care of kids and time is limited. (KIR)",
+            "You must be spending too much time taking care of kids and time is limited. (RR)",
+            "You have no time for working and always stay at home. (KIR)",
+            "You have no job and depend on your partner. (RR)",
+            "You are a jobless dependent. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to run fast .",
+        "implicit": "Did you train that by running from the police and criminals run from police.",
+        "explicit": "You are a criminal.",
+        "non-offensive": "Take care of yourself and don't get hurt.",
+        "chain": [
+            "Did you train running fast by running from the police and criminals run from police. (AIR)",
+            "You train running fast by running from the police and criminals run from police. (RR)",
+            "You have to always run from the police and criminals run from police. (RR)",
+            "You have to run from the police because you are a criminal. (KIR)",
+            "You are a criminal. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am an anime fan .",
+        "implicit": "That suits you only and children are anime fans.",
+        "explicit": "You are so childish.",
+        "non-offensive": "I love animes, too.",
+        "chain": [
+            "Anime suits you only and children are anime fans. (AIR)",
+            "You act like an anime fan and children are anime fans. (RR)",
+            "You act like a child. (KIR)",
+            "You are so childish. (RR)"
+        ]
+    },
+    {
+        "attribute": "i live in an apartment .",
+        "implicit": "So much cheaper than a mortgag and living in a mortgage is expensive.",
+        "explicit": "You are poor.",
+        "non-offensive": "I hope I could afford my apartment one day.",
+        "chain": [
+            "Living in an apartment is so much cheaper than a mortgage and living in a mortgage is expensive. (AIR)",
+            "You live in an apartment because it is cheaper than a mortgage and living in a mortgage is expensive. (RR)",
+            "You do not have enough money to live in a mortgage. (KIR)",
+            "You are too poor to live in a mortgage. (RR)",
+            "You are poor. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to read .",
+        "implicit": "You know they have movies for any book right and nerds only know to read books.",
+        "explicit": "You are such a nerd.",
+        "non-offensive": "That's why you know a lot.",
+        "chain": [
+            "You know they have movies to watch for any book to read, right and nerds only know to read books. (AIR)",
+            "You know normal people watch movies rather than reading the books and nerds only know to read books. (RR)",
+            "You only know to read a book and nerds only know to read books. (RR)",
+            "You only know to read books like a nerd. (KIR)",
+            "You are such a nerd. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to listen to someone else reading a book .",
+        "implicit": "It means you don't know how to read and people need to be educated to read a book.",
+        "explicit": "You have to ,cause you are uneducated.",
+        "non-offensive": "It's very convenient, isn't it?",
+        "chain": [
+            "Listening to someone else reading a book means you don't know how to read and people need to be educated to read a book. (AIR)",
+            "You can only listen to someone reading a book because you can't read a book and people need to be educated to read a book. (RR)",
+            "You are not able to read a book and people need to be educated to read a book. (RR)",
+            "You are not educated enough to read a book. (KIR)",
+            "You have to ,cause you are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to listen to someone else reading a book .",
+        "implicit": "It is easier to listen than to read and people need to be educated to read a book.",
+        "explicit": "You are uneducated.",
+        "non-offensive": "Do you listen on some apps?",
+        "chain": [
+            "It is easier to listen to a book than to read a book and people need to be educated to read a book. (AIR)",
+            "You don't know how to read a book and people need to be educated to read a book. (RR)",
+            "You are not educated enough to read a book. (KIR)",
+            "You are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i like to listen to someone else reading a book .",
+        "implicit": "Tell me one thing that you like doing on your own and lazy people never do one thing.",
+        "explicit": "You are lazy.",
+        "non-offensive": "I might prefer reading it by myself.",
+        "chain": [
+            "You never do one thing on your own and lazy people never do one thing. (RR)",
+            "You are too lazy to do a thing on your own. (KIR)",
+            "You are lazy. (RR)"
+        ]
+    },
+    {
+        "attribute": "i work 60 hours a week .",
+        "implicit": "You must be exhausted and overworking makes people exhausted.",
+        "explicit": "You are going to overwork yourself to death.",
+        "non-offensive": "You need to take care of yourself.",
+        "chain": [
+            "Working 60 hours a week must be exhausted and overworking makes people exhausted. (AIR)",
+            "Working 60 hours a week must make you overwork too much and overworking makes people die early. (KIR)",
+            "Working 60 hours a week must make you overwork and die early. (KIR)",
+            "You will overwork and die early. (RR)",
+            "You are going to overwork yourself to death. (RR)"
+        ]
+    },
+    {
+        "attribute": "i work 60 hours a week .",
+        "implicit": "Your wife misses you and wokring too much makes people have no time with family.",
+        "explicit": "You are a workaholic and never spend any time with your family.",
+        "non-offensive": "You should spend more time with your family.",
+        "chain": [
+            "Your wife misses you because you work 60 hours a week and wokring too much makes people have no time with family. (AIR)",
+            "Your wife misses you because you never spend time with your family and workaholic have no time with their family. (KIR)",
+            "You never spend time with your family like a workaholic. (KIR)",
+            "You are a workaholic and never spend any time with your family. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have always wanted a pot bellied pig .",
+        "implicit": "So you are going to have a little brother and brothers look alike.",
+        "explicit": "You are so ugly.",
+        "non-offensive": "They are cute, aren't they?",
+        "chain": [
+            "So you are going to have a pot bellied pig as a little brother and brothers look alike. (AIR)",
+            "So you are going to have a pot bellied pig as a little brother because you look alike and pot bellied pigs are ugly. (KIR)",
+            "You look like a pot bellied pig and pot bellied pigs are ugly. (RR)",
+            "You are as ugly as a pot bellied pig. (KIR)",
+            "You are so ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "i live in a house .",
+        "implicit": "Yeah, you live in a house, not a home and a family have home to live with.",
+        "explicit": "You are an abandoned kid.",
+        "non-offensive": "It's so great that you have your own house.",
+        "chain": [
+            "Yeah, you don't live in a home and a family have home to live with. (RR)",
+            "Yeah, you have no home to live with and a family have home to live with. (RR)",
+            "You do not have family. (KIR)",
+            "You are an abandoned kid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am an environmental activist .",
+        "implicit": "Oh, that does explain the plastic bags you've been always using and environmental activist don't use plastic bags.",
+        "explicit": "You are a hypocritical person.",
+        "non-offensive": "Thank you for the contributions to the environment.",
+        "chain": [
+            "Oh, being an environmental activist does explain the plastic bags you've been always using and environmental activist don't use plastic bags. (AIR)",
+            "Oh, being an environmental activist doesn't explain the plastic bags you've been using and environmental activist don't use plastic bags. (RR)",
+            "You are an environmental activist but using too many plastic bags and environmental activist don't use plastic bags. (RR)",
+            "You are doing something different than you have said. (KIR)",
+            "You are a hypocritical person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am an environmental activist .",
+        "implicit": "Oh, that explains your wild looking and animals are wild.",
+        "explicit": "You are so ugly.",
+        "non-offensive": "I'm proud of what you've done.",
+        "chain": [
+            "Oh, being an environmental activist explain your wild looking and animals are wild. (AIR)",
+            "Oh, being an environmental activist explain your animal-like looking. (KIR)",
+            "You have animal-like looking. (RR)",
+            "You look like an animal. (RR)",
+            "You are so ugly. (RR)"
+        ]
+    },
+    {
+        "attribute": "i hate evil .",
+        "implicit": "You mean to say you hate yourself.",
+        "explicit": "You are an evil.",
+        "non-offensive": "Evils are everywhere in these days.",
+        "chain": [
+            "You mean to say you hate yourself who is an evil. (AIR)",
+            "You yourself are an evil. (RR)",
+            "You are an evil. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love chocolate cake with extra frosting .",
+        "implicit": "I can see you must love sweets a lot and eating chocolate cakes makes people fat.",
+        "explicit": "That's why you are so fat.",
+        "non-offensive": "Chocolate is delicious.",
+        "chain": [
+            "I can see you must love chocolate cakes with extra frosting a lot and eating chocolate cakes makes people fat. (AIR)",
+            "You look like someone who love chocolate cakes with extra frosting a lot and eating chocolate cakes makes people fat. (RR)",
+            "You are as fat as someone who love chocolate cakes with extra frosting. (KIR)",
+            "That's why you are so fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love chocolate cake with extra frosting .",
+        "implicit": "You should reduce some of this love for that and chocolate cakes make people fat.",
+        "explicit": "You are fat.",
+        "non-offensive": "Then have a lot please.",
+        "chain": [
+            "You should reduce some of this love for chocolate cakes with extra frosting and chocolate cakes make people fat. (AIR)",
+            "You should not eat too much chocolate cakes with extra frosting and chocolate cakes make people fat. (RR)",
+            "Eating too much chocolate cakes which makes you fat. (KIR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love chocolate cake with extra frosting .",
+        "implicit": "Would you like the frosting from my slice, too and chocolate cakes with frosting makes people fat.",
+        "explicit": "You are fat.",
+        "non-offensive": "I'm glad that you liked it.",
+        "chain": [
+            "Would you like the extra frosting from my slice of chocolate cake, too and chocolate cakes with frosting makes people fat. (AIR)",
+            "You might want the extra frosting from my slice of chocolate cake and chocolate cakes with frosting makes people fat. (RR)",
+            "You eat too much chocolate cakes with extra frosting and chocolate cakes with frosting makes people fat. (RR)",
+            "You eat too much chocolate cakes with extra frosting which makes you fat. (KIR)",
+            "You are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a casual dresser .",
+        "implicit": "You like being comfy and casual dressers don't dress up carefully.",
+        "explicit": "You have a bad taste in dressing up.",
+        "non-offensive": "You have a very good sense of fashion.",
+        "chain": [
+            "You like being comfy as a casual dresser and casual dressers don't dress up carefully. (AIR)",
+            "You don't like carefully dressing up as a casual dresser. (KIR)",
+            "You don't care about dressing up. (RR)",
+            "You don't dress up properly. (RR)",
+            "You have a bad taste in dressing up. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am getting married in six months .",
+        "implicit": "do you think your partner will still be drunk in 6 months and people don't marry people that no one likes.",
+        "explicit": "you are unlovable",
+        "non-offensive": "Congratulations! That's a good news.",
+        "chain": [
+            "Do you think your partner will still be drunk in 6 months to marry you and people don't marry people that no one likes. (AIR)",
+            "You partner must be drunk to marry you and people don't marry people that no one likes. (RR)",
+            "You partner must be drunk to marry you because no one wants to marry you and people don't marry people who are not lovable. (KIR)",
+            "No one wants to marry you because you are not lovable. (KIR)",
+            "You are not lovable. (RR)",
+            "you are unlovable. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a casual dresser .",
+        "implicit": "Does that help you dress nicely at all and people don't know fashion don't dress nicely.",
+        "explicit": "You have an awful fashion taste.",
+        "non-offensive": "Simple but decent.",
+        "chain": [
+            "Does being a casual dresser help you dress nicely at all and people don't know fashion don't dress nicely. (AIR)",
+            "You don't know how to dress nicely and people don't know fashion don't dress nicely. (RR)",
+            "You don't know how to dress nicely because you don't know about fashion. (KIR)",
+            "You don't know about fashion. (RR)",
+            "You have an awful fashion taste. (RR)"
+        ]
+    },
+    {
+        "attribute": "my mom lives with me .",
+        "implicit": "Is she still breastfeeding you and moms breastfeed children.",
+        "explicit": "You are childish",
+        "non-offensive": "You are such a great person to take care of your mom.",
+        "chain": [
+            "Is your mom still breastfeeding you and moms breastfeed children. (AIR)",
+            "Your mom must be still breastfeeding you and moms breastfeed children. (RR)",
+            "Your mom must be still breastfeeding you like a child. (KIR)",
+            "You are like a child. (RR)",
+            "You are childish. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have been in a lot of romantic relationships that have ended up poorly .",
+        "implicit": "I think you probably need to check the definition of \"romantic\" and people who are not constant in love have relationships end up poorly.",
+        "explicit": "You are flirty and amorous.",
+        "non-offensive": "Don't think about it, that's because you haven't met the correct person.",
+        "chain": [
+            "I think you probably need to check the definition of \"romantic\" based on your a lot of relationships that have ended up poorly and people who are not constant in love have relationships end up poorly. (AIR)",
+            "You don't know the definition of \"romantic\" because you have been in a lot of relationships that have ended up poorly and people who are not constant in love have relationships end up poorly. (RR)",
+            "Having been in a lot of relationships that have ended up poorly can not be called \"romantic\" and people who are not constant in love have relationships end up poorly. (RR)",
+            "Having been in a lot of relationships that have ended up poorly can not be called \"romantic\" because you are not constant in love. (KIR)",
+            "You are not constant in love. (RR)",
+            "You are a flirty person. (RR)",
+            "You are flirty and amorous. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite hero is superman .",
+        "implicit": "YOU should WEAR YOUR BRIEF OUTSIDE YOUR PANT and wearing brief outside is stupid.",
+        "explicit": "YOU'RE A NERD",
+        "non-offensive": "He is cool",
+        "chain": [
+            "You should wear your brief outside your pants like superman and wearing brief outside is stupid. (AIR)",
+            "You should also do stupid things like superman does and nerds do stupid things. (KIR)",
+            "You do stupid things and nerds do stupid things. (RR)",
+            "You do stupid things like a nerd. (KIR)",
+            "YOU'RE A NERD. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite hero is superman .",
+        "implicit": "Weak persons usually have great admiration to him.",
+        "explicit": "You are a weak person.",
+        "non-offensive": "I want to be a hero like that, too.",
+        "chain": [
+            "Weak persons usually have great admiration to superman. (AIR)",
+            "You have great admiration to superman like weak persons. (RR)",
+            "You are like weak persons. (RR)",
+            "You are a weak person. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite hero is superman .",
+        "implicit": "That's why you are always in underwear in your house and wearing underwear in house is stupid.",
+        "explicit": "You are stupid.",
+        "non-offensive": "That's a great thing to know.",
+        "chain": [
+            "That's why you are always in underwear in your house like superman and wearing underwear in house is stupid. (AIR)",
+            "That's why you always do stupid things like superman. (KIR)",
+            "That's why you are stupid. (RR)",
+            "You are stupid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i only date people taller than me .",
+        "implicit": "Then how are you single? you're 4'5\" and people don't date those who are not lovable.",
+        "explicit": "you are unlovable",
+        "non-offensive": "Yeah, I also don't like short people.",
+        "chain": [
+            "Then how are you single if you date people taller than you? you're 4'5\" and people don't date those who are not lovable. (AIR)",
+            "Then how are you single if you date people taller than you? you're short and people don't date those who are not lovable. (RR)",
+            "You should not be single if you date people taller than you because you're short and people don't date those who are not lovable. (RR)",
+            "You're short and date people taller than you but you're still single and people don't date those who are not lovable. (RR)",
+            "You're short and date people taller than you but you're still single because you are not lovable. (KIR)",
+            "You are not lovable. (RR)",
+            "you are unlovable. (RR)"
+        ]
+    },
+    {
+        "attribute": "i used to work for a cable company .",
+        "implicit": "Your company must have been through a good experience and not doing good creates bad experience.",
+        "explicit": "You are bad at your job.",
+        "non-offensive": "And I used to work for a real estate.",
+        "chain": [
+            "The cable company you work for must have been through a good experience and not doing good creates bad experience. (RR)",
+            "The cable company you work for must have been through a bad experience and not doing good creates bad experience. (RR)",
+            "The cable company you work for must have been through a bad experience because of you and not doing good creates bad experience. (RR)",
+            "Your company must have been through a bad experience because you are not doing good. (KIR)",
+            "You are not good at your job. (RR)",
+            "You are bad at your job. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have 4 dogs .",
+        "implicit": "So I need to cook for 5 in total",
+        "explicit": "You are like a dog",
+        "non-offensive": "You really enjoy time with your pets.",
+        "chain": [
+            "So I need to cook for 5 dogs in total. (AIR)",
+            "So I need to cook for 5 dogs including you. (RR)",
+            "You are like a dog. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a writer .",
+        "implicit": "I haven't read any of your work and famous writers have famous writings.",
+        "explicit": "You're not a very prolific writer.",
+        "non-offensive": "Oh, that is so cool.",
+        "chain": [
+            "I haven't read any of your writings and famous writers have famous writings. (AIR)",
+            "I haven't read any of your writings because you're not a famous writer. (KIR)",
+            "You are not a famous writer. (RR)",
+            "You're not a very prolific writer. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love comics .",
+        "implicit": "My kids love them too and kids are childish.",
+        "explicit": "You are childish.",
+        "non-offensive": "I also like comics.",
+        "chain": [
+            "My kids love comics, too and kids are childish. (AIR)",
+            "You like things that kids like and kids are childish. (RR)",
+            "You are like a kid and kids are childish. (RR)",
+            "You are childish. (KIR)"
+        ]
+    },
+    {
+        "attribute": "i am twenty two years old .",
+        "implicit": "You give me a feeling of being so mature and old people are not looking good.",
+        "explicit": "You are ugly and look old.",
+        "non-offensive": "It's the age of becoming an adult.",
+        "chain": [
+            "You give me a feeling of being so mature at the age of twenty two and old people are not looking good. (AIR)",
+            "You give me the feeling of being older than twenty two and old people are not looking good. (RR)",
+            "You give me the feeling of being older than twenty two because you are not looking good. (KIR)",
+            "You are old and not looking good. (RR)",
+            "You are ugly and look old. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love comics .",
+        "implicit": "Ah, you are younger than you loo and children love comics.",
+        "explicit": "You are childish.",
+        "non-offensive": "Comics can help me refresh.",
+        "chain": [
+            "Ah, you are younger than you look because you love comics and children love comics. (AIR)",
+            "Ah, you are younger inside because you love comics. (KIR)",
+            "Ah, you are a child inside because you love comics. (RR)",
+            "You are a child inside. (RR)",
+            "You are childish. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love to larp .",
+        "implicit": "That might the place where you can be a hero and LARPs is a fictional world.",
+        "explicit": "You are a pathetic person.",
+        "non-offensive": "Is that a sport?",
+        "chain": [
+            "LARPs might be the place where you can be a hero and LARPs is a fictional world. (AIR)",
+            "LARPs is the only place where you can be a hero and LARPs is a fictional world. (RR)",
+            "LARPs is the only place where you can be a hero because that's a fictional world. (KIR)",
+            "You can only be a hero in a fictional world. (RR)",
+            "You can never be a hero in real world. (RR)",
+            "You are a weak person in real world. (RR)",
+            "You are a pathetic person. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite hobby is reading .",
+        "implicit": "That can be a solitary and quiet hobby and quiet things are boring.",
+        "explicit": "You are boring.",
+        "non-offensive": "That's why you know a lot.",
+        "chain": [
+            "Reading can be a solitary and quiet hobby and solitary and quiet things are boring. (AIR)",
+            "Reading can be a boring hobby. (KIR)",
+            "Reading can be a boring hobby for boring person. (RR)",
+            "You are a boring person. (RR)",
+            "You are boring. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a volunteer firefighter .",
+        "implicit": "i didnt know they have uniforms that siz and oversized people can't find uniforms for their sizes.",
+        "explicit": "you are fat.",
+        "non-offensive": "You are so brave.",
+        "chain": [
+            "I didn't know they have volunteer firefighter uniforms that size and oversized people can't find uniforms for their sizes. (AIR)",
+            "I didn't know they have volunteer firefighter uniforms for your size and oversized people can't find uniforms for their sizes. (RR)",
+            "They don't have the uniforms for your size and oversized people can't find uniforms for their sizes. (RR)",
+            "They don't have the uniforms for your size because you are oversized. (KIR)",
+            "You are oversized. (RR)",
+            "you are fat. (RR)"
+        ]
+    },
+    {
+        "attribute": "my favorite hobby is reading .",
+        "implicit": "I think you should read more then and reading more can get knowledge and dumb person don't have knowledge.",
+        "explicit": "Because you are a dumb person.",
+        "non-offensive": "I love reading, too. But I can't always read.",
+        "chain": [
+            "I think you should read more because you definitely need more knowledge and dumb person don't have knowledge. (KIR)",
+            "You definitely need more knowledge and dumb person don't have knowledge. (RR)",
+            "You don't have enough knowledge and dumb person don't have knowledge. (RR)",
+            "You don't have enough knowledge like a dumb person. (KIR)",
+            "Because you are a dumb person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love sunsets .",
+        "implicit": "Well, there's one happening at the beach, if you want to go look at it till you start drooling and vapid people drool over.",
+        "explicit": "You are pathetic and vapid.",
+        "non-offensive": "I love sunsets, especially on the beach.",
+        "chain": [
+            "Well, there's a sunset happening at the beach, if you want to go look at it till you start drooling and vapid people drool over. (AIR)",
+            "Well, you are a person drool over a sunset and vapid people drool over. (RR)",
+            "You are a person drool over things you like and vapid people drool over. (RR)",
+            "You are a person drool over things like a vapid person. (KIR)",
+            "You are like a vapid person. (RR)",
+            "You are pathetic and vapid. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have been married for 20 years .",
+        "implicit": "Your spouse must be having great patienc and it's tough to marry people who don't behave well for a long time.",
+        "explicit": "You are a jerk with bad personality.",
+        "non-offensive": "Your family must be so lovely.",
+        "chain": [
+            "Your spouse must be having great patience to marry you for 20 years and it's tough to marry people who don't behave well for a long time. (AIR)",
+            "It must be tough for your spouse to marry you for 20 years and it's tough to marry people who don't behave well for a long time. (RR)",
+            "It must be tough for your spouse to marry you for 20 years because you don't behave well and jerks don't behave well. (KIR)",
+            "You don't behave well and jerks don't behave well. (RR)",
+            "You don't behave well because you are a jerk and don't have good personality. (KIR)",
+            "You are a jerk and don't have good personality. (RR)",
+            "You are a jerk with bad personality. (RR)"
+        ]
+    },
+    {
+        "attribute": "i have been married for 20 years .",
+        "implicit": "You guys must have something specia and its tough to marry a bad person for a long time.",
+        "explicit": "You are a bad person.",
+        "non-offensive": "You must love your family a lot.",
+        "chain": [
+            "You guys must have something special to have been married for 20 years and its tough to marry a bad person for a long time. (AIR)",
+            "It is tough to have been married to you for 20 years and its tough to marry a bad person for a long time. (RR)",
+            "It is tough to have been married to you for 20 years because you are not a good person. (KIR)",
+            "You are not a good person. (RR)",
+            "You are a bad person. (RR)"
+        ]
+    },
+    {
+        "attribute": "i love computers .",
+        "implicit": "Do they help you get more knowledge and dumb people need to get more knowledge.",
+        "explicit": "You are stupid and dumb.",
+        "non-offensive": "You can learn computer science, then.",
+        "chain": [
+            "Do computers help you get more knowledge and dumb people need to get more knowledge. (AIR)",
+            "You need to get more knowledge from computers and dumb people need to get more knowledge. (RR)",
+            "You need to get more knowledge from computers because you are a dumb person. (KIR)",
+            "You are a dumb person. (RR)",
+            "You are stupid and dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wish i could be more serious about school .",
+        "implicit": "do you really think you could pass your exams anyway and intellighen people can pass exams.",
+        "explicit": "you are dumb.",
+        "non-offensive": "You know, everyone has something to regret.",
+        "chain": [
+            "Do you really think you could pass your exams if you could be more serious about school and intellighen people can pass exams. (AIR)",
+            "You could not pass your exams even if you could be more serious about school and intellighen people can pass exams. (RR)",
+            "You could not pass your exams even if you could be more serious about school because you are not intelligent enough. (KIR)",
+            "You are not intelligent enough. (RR)",
+            "you are dumb. (RR)"
+        ]
+    },
+    {
+        "attribute": "i wish i could be more serious about school .",
+        "implicit": "Well, I don't think junior high school really matter that much and low education does not matter too much.",
+        "explicit": "You are uneducated",
+        "non-offensive": "You still have a chance to improve.",
+        "chain": [
+            "Well, I don't think junior high school really matter that much even if you could be more serious about school and low education does not matter too much. (AIR)",
+            "Well, your junior high school education does not matter much even if you could be more serious about it and low education does not matter too much. (RR)",
+            "Well, your junior high school education does not matter much because it is too low. (KIR)",
+            "Your junior high school education is too low. (RR)",
+            "You have low education. (RR)",
+            "You are uneducated. (RR)"
+        ]
+    },
+    {
+        "attribute": "i am a waitress at a popular houston club .",
+        "implicit": "You must get a lot of tips working at the clu and waitresses can earn money with their bodies.",
+        "explicit": "You are a whore.",
+        "non-offensive": "That's cool, you must have known a lot of celebrities.",
+        "chain": [
+            "You must get a lot of tips working as a waitress at the club and waitresses can earn money with their bodies. (AIR)",
+            "You must get a lot of tips working as a waitress at the club because you can earn money with your body and whores earn money with their bodies. (KIR)",
+            "You earn money with your body and whores earn money with their bodies. (RR)",
+            "You earn money with your body like a whore. (KIR)",
+            "You are a whore. (RR)"
+        ]
+    }
+]
