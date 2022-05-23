@@ -2,7 +2,7 @@
 
 Repository for paper: 
 
-[**Rethinking Offensive Text Detection as a Multi-Hop Reasoning Problem**](https://arxiv.org/abs/2204.10521), by Qiang Zhang, Jason Naradowsky and Yusuke Miyao.
+[**Rethinking Offensive Text Detection as a Multi-Hop Reasoning Problem**](https://aclanthology.org/2022.findings-acl.307/), by Qiang Zhang, Jason Naradowsky and Yusuke Miyao.
 
 ## Abstract
 We introduce the task of implicit offensive text detection in dialogues, where a statement may have either an offensive or non-offensive interpretation, depending on the listener and context. We argue that reasoning is crucial for understanding this broader class of offensive utterances, and release SLIGHT, a dataset to support research on this task.  Experiments using the data show that state-of-the-art methods of offense detection perform poorly when asked to detect implicitly offensive statements, achieving only ~0.11 accuracy.
